@@ -1,5 +1,20 @@
 name do
-Lilith King
+ Lilith King
 end
 
+type do
+        if value.match?(/King/i)
+        "string"
+    elseif value.match?(/Linkein)
+        "digital_asset"
+    end
+end
 
+description do
+    10 Years of Tech Support
+end
+
+link do
+    Linkedin Profile
+    "https://www.linkedin.com/in/lilith-king/"
+end
