@@ -5,7 +5,7 @@ end
 type do
         if value.match?(/King/i)
         "string"
-    elseif value.match?(/Linkein/i)
+    elseif value.match?(/Linkedin/i)
         "digital_asset"
     end
 end
